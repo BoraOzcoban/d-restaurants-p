@@ -26,7 +26,7 @@ SECRET_KEY = 'bzy78*_excyn^79wlwn@mwrvrnk^_rui!^e(c9ol7ao_0a!x$z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['d-restaurants-p.herokuapp.com']
 
 
 # Application definition
@@ -121,7 +121,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+ALLOWED_HOSTS = ['borarestaurantapp.herokuapp.com','127.0.0.1','heroku.com (50.19.85.154)', 'localhost']
 
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
