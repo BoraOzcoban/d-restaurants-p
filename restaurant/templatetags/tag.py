@@ -1,4 +1,4 @@
-from django import template
+pip install --upgrade pipfrom django import template
 import numpy as np
 import pandas as pd
 
