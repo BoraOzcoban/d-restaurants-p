@@ -132,3 +132,5 @@ ALLOWED_HOSTS = ['borarestaurantapp.herokuapp.com','127.0.0.1','heroku.com (50.1
     #os.path.join(BASE_DIR, 'static')
 #]
 
+#django_heroku.settings(locals())
+
