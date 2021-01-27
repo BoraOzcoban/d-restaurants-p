@@ -128,7 +128,7 @@ django_heroku.settings(locals())
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-ALLOWED_HOSTS = ['borarestaurantapp.herokuapp.com','127.0.0.1','heroku.com (50.19.85.154)', 'localhost']
+ALLOWED_HOSTS = ['borarestaurantapp.herokuapp.com','127.0.0.1','heroku.com (50.19.85.154)', 'localhost','*']
 
 #STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 #STATIC_URL = '/static/'
