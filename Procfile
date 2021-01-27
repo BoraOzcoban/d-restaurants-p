@@ -1,1 +1,1 @@
-web: gunicorn d-restaurants-p.wsgi
+web: gunicorn d-restaurants-p.wsgi --log-file -
