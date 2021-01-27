@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 #BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,8 +27,8 @@ SECRET_KEY = 'bzy78*_excyn^79wlwn@mwrvrnk^_rui!^e(c9ol7ao_0a!x$z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['d-restaurants-p.herokuapp.com']
-
+#ALLOWED_HOSTS = ['borarestaurantapp.herokuapp.com']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -56,7 +57,8 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, "templates")],
+        #'DIRS': [os.path.join(BASE_DIR, "templates")],
+        "DIRS": [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -81,7 +83,8 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        #'NAME': BASE_DIR / 'db.sqlite3',
+        "NAME": os.path.join(BASE_DIR, "db.sqlite3")
     }
 }
 
@@ -118,10 +121,14 @@ USE_L10N = True
 
 USE_TZ = True
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = "/static/"
+
+django_heroku.settings(locals())
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-ALLOWED_HOSTS = ['borarestaurantapp.herokuapp.com','127.0.0.1','heroku.com (50.19.85.154)', 'localhost']
+#ALLOWED_HOSTS = ['borarestaurantapp.herokuapp.com','127.0.0.1','heroku.com (50.19.85.154)', 'localhost']
 
 #STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 #STATIC_URL = '/static/'
