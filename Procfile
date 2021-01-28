@@ -1,1 +1,1 @@
-web: gunicorn d-restaurants-p.wsgi --log-file -
+web: gunicorn borarestaurantapp.wsgi --log-file -
