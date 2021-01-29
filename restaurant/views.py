@@ -15,7 +15,7 @@ class Rand(TemplateView):
     template_name = 'random.html'
 
 
-class Sortcity(TemplateView):
+class SortCity(TemplateView):
     template_name = 'sort_city.html'
 
 
