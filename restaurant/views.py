@@ -6,6 +6,7 @@ from django.views.generic import TemplateView
 import numpy as np
 import pandas as pd
 import requests
+
 from rq import Queue
 from worker import conn
 
