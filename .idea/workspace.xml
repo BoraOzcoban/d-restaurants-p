@@ -34,6 +34,7 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/worker.py" afterDir="false" />
     </list>

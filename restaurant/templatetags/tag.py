@@ -1,15 +1,15 @@
 from django import template
 import numpy as np
 import pandas as pd
-from restaurant.views import SortCity, Cuisine, q
+#from restaurant.views import SortCity, Cuisine, q
 register = template.Library()
 #@register.assignment_tag
 #@register.filter(name="random")
 
-@register.simple_tag(name="bgqu")
-def bgqu():
-    result = q.enqueue(SortCity, 'https://randomrestaurants.herokuapp.com/')
-    result = q.enqueue(Cuisine, 'https://randomrestaurants.herokuapp.com/')
+#@register.simple_tag(name="bgqu")
+#def bgqu():
+ #   result = q.enqueue(SortCity, 'https://randomrestaurants.herokuapp.com/')
+  #  result = q.enqueue(Cuisine, 'https://randomrestaurants.herokuapp.com/')
 
 @register.simple_tag(name="random")
 def random():
