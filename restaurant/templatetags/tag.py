@@ -20,9 +20,6 @@ def random():
     pd.set_option('display.max_colwidth', 0)
     x = np.random.randint(0, 125433)
     result = df.iloc[x]
-    #result1 = result[["Name","City","Ranking","Rating","Cuisine Style","Price Range","Reviews"]]
-    newline = '\n'
-    result1 = (f'''Name: {result["Name"]}   |City: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -39,7 +36,6 @@ def city_sort_a():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -56,7 +52,6 @@ def city_sort_at():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -73,7 +68,6 @@ def city_sort_b():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -90,7 +84,6 @@ def city_sort_be():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -107,7 +100,6 @@ def city_sort_br():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -124,7 +116,6 @@ def city_sort_bru():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -141,7 +132,6 @@ def city_sort_bu():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -158,7 +148,6 @@ def city_sort_cp():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -175,7 +164,6 @@ def city_sort_du():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -192,7 +180,6 @@ def city_sort_ed():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -209,7 +196,6 @@ def city_sort_ge():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -226,7 +212,6 @@ def city_sort_ha():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -243,7 +228,6 @@ def city_sort_he():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -260,7 +244,6 @@ def city_sort_kr():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -277,7 +260,6 @@ def city_sort_li():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -294,7 +276,6 @@ def city_sort_lj():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -311,7 +292,6 @@ def city_sort_lo():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -328,7 +308,6 @@ def city_sort_lu():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -345,7 +324,6 @@ def city_sort_ly():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -362,7 +340,6 @@ def city_sort_ma():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -379,7 +356,6 @@ def city_sort_mi():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -396,7 +372,6 @@ def city_sort_mu():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -413,7 +388,6 @@ def city_sort_op():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -430,7 +404,6 @@ def city_sort_os():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -447,7 +420,6 @@ def city_sort_pa():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -464,7 +436,6 @@ def city_sort_pr():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -481,7 +452,6 @@ def city_sort_ro():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -498,7 +468,6 @@ def city_sort_st():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -515,7 +484,6 @@ def city_sort_vi():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -532,7 +500,6 @@ def city_sort_wr():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
@@ -549,7 +516,6 @@ def city_sort_zr():
     y = len(result)
     x = np.random.randint(1, y)
     result = result.iloc[x]
-    result1 = (f'''Name: {result["Name"]}   |\nCity: {result["City"]}   |\nRanking: {result["Ranking"]}   |Cuisine Style: {result["Cuisine Style"]}   |Reviews: {result["Reviews"]}   |Price Range: {result["Price Range"]}   | ''')
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
