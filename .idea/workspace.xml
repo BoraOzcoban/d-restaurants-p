@@ -34,10 +34,6 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/cuisine.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/cuisine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/random.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/random.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/templatetags/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templatetags/tag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

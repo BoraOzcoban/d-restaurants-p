@@ -1,6 +1,7 @@
 from django import template
 import numpy as np
 import pandas as pd
+from numpy.random import randint
 #from restaurant.views import SortCity, Cuisine, q
 register = template.Library()
 #@register.assignment_tag
@@ -18,7 +19,7 @@ def random():
     pd.set_option('display.max_columns', None)
     pd.set_option('display.width', None)
     pd.set_option('display.max_colwidth', 0)
-    x = np.random.randint(0, 125433)
+    x = randint(0, 125433)
     result = df.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -34,7 +35,7 @@ def city_sort_a():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Amsterdam")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -50,7 +51,7 @@ def city_sort_at():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Athens")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -66,7 +67,7 @@ def city_sort_b():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Barcelona")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -82,7 +83,7 @@ def city_sort_be():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Berlin")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -98,7 +99,7 @@ def city_sort_br():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Bratislava")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -114,7 +115,7 @@ def city_sort_bru():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Brussels")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -130,7 +131,7 @@ def city_sort_bu():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Budapest")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -146,7 +147,7 @@ def city_sort_cp():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Copenhagen")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -162,7 +163,7 @@ def city_sort_du():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Dublin")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -178,7 +179,7 @@ def city_sort_ed():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Edinburgh")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -194,7 +195,7 @@ def city_sort_ge():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Geneva")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -210,7 +211,7 @@ def city_sort_ha():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Hamburg")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -226,7 +227,7 @@ def city_sort_he():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Helsinki")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -242,7 +243,7 @@ def city_sort_kr():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Krakow")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -258,7 +259,7 @@ def city_sort_li():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Lisbon")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -274,7 +275,7 @@ def city_sort_lj():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Ljubljana")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -290,7 +291,7 @@ def city_sort_lo():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("London")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -306,7 +307,7 @@ def city_sort_lu():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Luxembourg")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -322,7 +323,7 @@ def city_sort_ly():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Lyon")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -338,7 +339,7 @@ def city_sort_ma():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Madrid")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -354,7 +355,7 @@ def city_sort_mi():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Milan")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -370,7 +371,7 @@ def city_sort_mu():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Munich")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -386,7 +387,7 @@ def city_sort_op():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Oporto")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -402,7 +403,7 @@ def city_sort_os():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Oslo")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -418,7 +419,7 @@ def city_sort_pa():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Paris")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -434,7 +435,7 @@ def city_sort_pr():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Prague")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -450,7 +451,7 @@ def city_sort_ro():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Rome")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -466,7 +467,7 @@ def city_sort_st():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Stockholm")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -482,7 +483,7 @@ def city_sort_vi():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Vienna")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -498,7 +499,7 @@ def city_sort_wr():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Warsaw")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
@@ -514,7 +515,7 @@ def city_sort_zr():
     pd.set_option('display.max_colwidth', 0)
     result = df[df["City"].str.contains("Zurich")]
     y = len(result)
-    x = np.random.randint(1, y)
+    x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
