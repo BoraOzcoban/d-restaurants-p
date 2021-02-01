@@ -5,7 +5,11 @@ from django.views.generic import TemplateView
 #from .models import Res
 import numpy as np
 import pandas as pd
+import requests
+from rq import Queue
+from worker import conn
 
+q = Queue(connection=conn)
 
 class Dashboard(TemplateView):
     template_name = 'base.html'
