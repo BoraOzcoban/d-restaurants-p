@@ -521,33 +521,6 @@ def city_sort_zr():
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
 
-
-@register.simple_tag(name="cuisine_a")
-def cuisine_a():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("African")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_al")
-def cuisine_al():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Algerian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
 @register.simple_tag(name="cuisine_am")
 def cuisine_am():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -559,33 +532,6 @@ def cuisine_am():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
-@register.simple_tag(name="cuisine_ar")
-def cuisine_ar():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Arabic")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_arg")
-def cuisine_arg():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Argentinean")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
 
 @register.simple_tag(name="cuisine_as")
 def cuisine_as():
@@ -599,7 +545,6 @@ def cuisine_as():
     res = res["Name"].to_string()
     return res
 
-
 @register.simple_tag(name="cuisine_bar")
 def cuisine_bar():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -611,7 +556,6 @@ def cuisine_bar():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 
 @register.simple_tag(name="cuisine_barb")
 def cuisine_barb():
@@ -625,7 +569,6 @@ def cuisine_barb():
     res = res["Name"].to_string()
     return res
 
-
 @register.simple_tag(name="cuisine_be")
 def cuisine_be():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -637,20 +580,6 @@ def cuisine_be():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
-@register.simple_tag(name="cuisine_bra")
-def cuisine_bra():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Brazilian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
 
 @register.simple_tag(name="cuisine_brew")
 def cuisine_brew():
@@ -664,20 +593,6 @@ def cuisine_brew():
     res = res["Name"].to_string()
     return res
 
-
-@register.simple_tag(name="cuisine_bri")
-def cuisine_bri():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("British")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
 @register.simple_tag(name="cuisine_ca")
 def cuisine_ca():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -689,33 +604,6 @@ def cuisine_ca():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
-@register.simple_tag(name="cuisine_cau")
-def cuisine_cau():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Caucasian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_cea")
-def cuisine_cea():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Central Asian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
 
 @register.simple_tag(name="cuisine_cee")
 def cuisine_cee():
@@ -756,19 +644,6 @@ def cuisine_con():
     return res
 
 
-@register.simple_tag(name="cuisine_da")
-def cuisine_da():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Danish")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
 @register.simple_tag(name="cuisine_de")
 def cuisine_de():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -781,7 +656,6 @@ def cuisine_de():
     res = res["Name"].to_string()
     return res
 
-
 @register.simple_tag(name="cuisine_di")
 def cuisine_di():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -793,33 +667,6 @@ def cuisine_di():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
-@register.simple_tag(name="cuisine_dut")
-def cuisine_dut():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Dutch")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_ee")
-def cuisine_ee():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Eastern European")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
 
 @register.simple_tag(name="cuisine_ff")
 def cuisine_ff():
@@ -924,7 +771,6 @@ def cuisine_gri():
     res = res["Name"].to_string()
     return res
 
-
 @register.simple_tag(name="cuisine_hea")
 def cuisine_hea():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -936,20 +782,6 @@ def cuisine_hea():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
-@register.simple_tag(name="cuisine_hun")
-def cuisine_hun():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Hungarian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
 
 @register.simple_tag(name="cuisine_ind")
 def cuisine_ind():
@@ -963,20 +795,6 @@ def cuisine_ind():
     res = res["Name"].to_string()
     return res
 
-
-@register.simple_tag(name="cuisine_indo")
-def cuisine_indo():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Indonesian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
 @register.simple_tag(name="cuisine_int")
 def cuisine_int():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -988,33 +806,6 @@ def cuisine_int():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
-@register.simple_tag(name="cuisine_ir")
-def cuisine_ir():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Irish")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_isr")
-def cuisine_isr():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Israeli")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
 
 @register.simple_tag(name="cuisine_ita")
 def cuisine_ita():
@@ -1037,58 +828,6 @@ def cuisine_jap():
     pd.set_option('display.width', None)
     pd.set_option('display.max_colwidth', 0)
     df2 = df[df["Cuisine Style"].str.contains("Japanese")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_kor")
-def cuisine_kor():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Korean")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_lat")
-def cuisine_lat():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Latin")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_latv")
-def cuisine_latv():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Latvian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_leb")
-def cuisine_leb():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Lebanese")]
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
@@ -1132,46 +871,6 @@ def cuisine_mid():
     res = res["Name"].to_string()
     return res
 
-
-@register.simple_tag(name="cuisine_mor")
-def cuisine_mor():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Moroccan")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_pak")
-def cuisine_pak():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Pakistani")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_per")
-def cuisine_per():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Persian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
 @register.simple_tag(name="cuisine_pol")
 def cuisine_pol():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -1184,20 +883,6 @@ def cuisine_pol():
     res = res["Name"].to_string()
     return res
 
-
-@register.simple_tag(name="cuisine_por")
-def cuisine_por():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Portuguese")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
 @register.simple_tag(name="cuisine_pub")
 def cuisine_pub():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -1206,32 +891,6 @@ def cuisine_pub():
     pd.set_option('display.width', None)
     pd.set_option('display.max_colwidth', 0)
     df2 = df[df["Cuisine Style"].str.contains("Pub")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_rom")
-def cuisine_rom():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Romanian")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
-@register.simple_tag(name="cuisine_rus")
-def cuisine_rus():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Russian")]
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
@@ -1249,7 +908,6 @@ def cuisine_sca():
     res = res["Name"].to_string()
     return res
 
-
 @register.simple_tag(name="cuisine_soam")
 def cuisine_soam():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -1261,20 +919,6 @@ def cuisine_soam():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
-@register.simple_tag(name="cuisine_spa")
-def cuisine_spa():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Spanish")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
 
 @register.simple_tag(name="cuisine_steak")
 def cuisine_steak():
@@ -1301,20 +945,6 @@ def cuisine_strt():
     res = res["Name"].to_string()
     return res
 
-
-@register.simple_tag(name="cuisine_swis")
-def cuisine_swis():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Swiss")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
-
 @register.simple_tag(name="cuisine_th")
 def cuisine_th():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -1339,20 +969,6 @@ def cuisine_tur():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
-@register.simple_tag(name="cuisine_viet")
-def cuisine_viet():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Vietnamese")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res
-
 
 @register.simple_tag(name="cuisine_wine")
 def cuisine_wine():
@@ -1393,14 +1009,3 @@ def cuisine_kos():
     return res
 
 
-@register.simple_tag(name="cuisine_car")
-def cuisine_car():
-    df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
-    df = df.fillna(value="No Info")
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', None)
-    pd.set_option('display.max_colwidth', 0)
-    df2 = df[df["Cuisine Style"].str.contains("Caribbean")]
-    res = df2.groupby("City").count().sort_values("Name", ascending=False)
-    res = res["Name"].to_string()
-    return res

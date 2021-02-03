@@ -32,6 +32,3 @@ class Cuisine(TemplateView):
 
 class Cuisine2(TemplateView):
     template_name = 'cuisine2.html'
-
-class Cuisine3(TemplateView):
-    template_name = 'cuisine3.html'
