@@ -22,6 +22,11 @@ class Rand(TemplateView):
 class SortCity(TemplateView):
     template_name = 'sort_city.html'
 
+class SortCity2(TemplateView):
+    template_name = 'sort_city2.html'
+
+class SortCity3(TemplateView):
+    template_name = 'sort_city3.html'
 
 class Cuisine(TemplateView):
     template_name = 'cuisine.html'

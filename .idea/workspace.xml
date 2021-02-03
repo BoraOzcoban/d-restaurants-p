@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3a4f3c5-7f0a-4106-abc2-0aeebe411181" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/asgi.py" beforeDir="false" />
@@ -34,7 +36,8 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templatetags/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templatetags/tag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
