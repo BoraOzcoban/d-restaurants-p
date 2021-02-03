@@ -18,7 +18,6 @@ class Dashboard(TemplateView):
 class Rand(TemplateView):
     template_name = 'random.html'
 
-
 class SortCity(TemplateView):
     template_name = 'sort_city.html'
 
@@ -30,3 +29,9 @@ class SortCity3(TemplateView):
 
 class Cuisine(TemplateView):
     template_name = 'cuisine.html'
+
+class Cuisine2(TemplateView):
+    template_name = 'cuisine2.html'
+
+class Cuisine3(TemplateView):
+    template_name = 'cuisine3.html'

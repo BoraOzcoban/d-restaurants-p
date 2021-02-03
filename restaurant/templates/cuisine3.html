@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/09aa26f5ae.js" crossorigin="anonymous"></script>
+    <title>Less Popular Cuisines</title>
+        <style>
+        html, body {
+            height: 100%;
+        }
+
+        .full-height {
+            height: 100%;
+           }
+                body {
+            padding: 70px;
+            }
+        div {
+            padding: 10px;
+            margin-bottom: 10px;
+            }
+        .margin-right{
+            margin-right: 10px;
+            }
+        .d-inline-block{
+            display: inline-block;
+            }
+        .jumbotron {
+            background-image: url(https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+            }
+    </style>
+</head>
+<body>
+    <div class = "container fixed">
+        <div class = "jumbotron">
+                <p class = "h1 text-success">Restaurants App</p>
+        </div>
+    </div>
+    {% load tag %}
+<button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal37">
+        Arabic
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal38">
+        Argentinean
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal39">
+        Brazilian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal40">
+        British
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal41">
+        Caribbean
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal42">
+        Caucasian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal43">
+        Danish
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal44">
+        Dutch
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal45">
+        Eastern European
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal47">
+        Hungarian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal48">
+        Indonesian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal49">
+        Irish
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal50">
+        Israeli
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal51">
+        Korean
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal52">
+        Latvian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal53">
+        Lebanese
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal54">
+        Moroccan
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal55">
+        Pakistani
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal56">
+        Persian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal57">
+        Polish
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal58">
+        Portuguese
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal59">
+        Romanian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal60">
+        Russian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal61">
+        Scandinavian
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal62">
+        Spanish
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal63">
+        Swiss
+    </button>
+    <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target="#myModal64">
+        Vietnamese
+    </button>
+    <br>
+
+    <br>
+ <div class = "modal" id="myModal32">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">African</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_a %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal33">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">South American</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_soam %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal34">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Middle Eastern</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_mid %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal35">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Central European</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_cee %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal36">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Algerian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_al %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal37">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Arabic</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_ar %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal38">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Argentinean</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_arg %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal39">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Brazilian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_bra %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal40">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">British</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_bri %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal41">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Caribbean</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_car %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal42">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Caucasian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_cau %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal43">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Danish</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_da %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal44">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Dutch</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_dut %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal45">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Eastern European</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_ee %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal47">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Hungarian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_hun %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal48">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Indonesian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_ind %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal49">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Irish</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_ir %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal50">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Israeli</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_isr %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal51">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Korean</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_kor %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal52">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Latvian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_latv %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal53">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Lebanese</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_leb %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal54">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Moroccan</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_mor %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal55">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Pakistani</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_pak %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal56">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Persian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_per %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal57">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Polish</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_pol %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal58">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Portuguese</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_por %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal59">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Romanian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_rom %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal60">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Russian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_rus %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal61">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Scandinavian</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_sca %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal62">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Spanish</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_spa %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal63">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Swiss</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_swis %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal64">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Vietnamese</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <strong> {% cuisine_viet %} </strong>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
