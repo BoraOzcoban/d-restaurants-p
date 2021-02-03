@@ -34,12 +34,8 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/cuisine.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/cuisine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/templates/cuisine2.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/cuisine2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/templates/cuisine3.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/cuisine3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
