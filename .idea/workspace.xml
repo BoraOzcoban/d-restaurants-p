@@ -34,8 +34,12 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/random.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/worker.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pandas" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -129,10 +133,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="725" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610030430625">
+    <state x="725" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613570612434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="725" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610030430625" />
+    <state x="725" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613570612434" />
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611579270693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
