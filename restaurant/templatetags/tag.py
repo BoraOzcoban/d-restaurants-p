@@ -2,15 +2,7 @@ from django import template
 import numpy as np
 import pandas as pd
 from numpy.random import randint
-#from restaurant.views import SortCity, Cuisine, q
 register = template.Library()
-#@register.assignment_tag
-#@register.filter(name="random")
-
-#@register.simple_tag(name="bgqu")
-#def bgqu():
- #   result = q.enqueue(SortCity, 'https://randomrestaurants.herokuapp.com/')
-  #  result = q.enqueue(Cuisine, 'https://randomrestaurants.herokuapp.com/')
 
 @register.simple_tag(name="random")
 def random():
@@ -24,8 +16,6 @@ def random():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_a")
 def city_sort_a():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -40,8 +30,6 @@ def city_sort_a():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_at")
 def city_sort_at():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -56,8 +44,6 @@ def city_sort_at():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_b")
 def city_sort_b():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -72,8 +58,6 @@ def city_sort_b():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_be")
 def city_sort_be():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -88,8 +72,6 @@ def city_sort_be():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_br")
 def city_sort_br():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -104,8 +86,6 @@ def city_sort_br():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_bru")
 def city_sort_bru():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -120,8 +100,6 @@ def city_sort_bru():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_bu")
 def city_sort_bu():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -136,8 +114,6 @@ def city_sort_bu():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_cp")
 def city_sort_cp():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -152,8 +128,6 @@ def city_sort_cp():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_du")
 def city_sort_du():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -168,8 +142,6 @@ def city_sort_du():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_ed")
 def city_sort_ed():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -184,8 +156,6 @@ def city_sort_ed():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_ge")
 def city_sort_ge():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -200,8 +170,6 @@ def city_sort_ge():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_ha")
 def city_sort_ha():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -216,8 +184,6 @@ def city_sort_ha():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_he")
 def city_sort_he():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -232,8 +198,6 @@ def city_sort_he():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_kr")
 def city_sort_kr():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -248,8 +212,6 @@ def city_sort_kr():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_li")
 def city_sort_li():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -264,8 +226,6 @@ def city_sort_li():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_lj")
 def city_sort_lj():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -280,8 +240,6 @@ def city_sort_lj():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_lo")
 def city_sort_lo():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -296,8 +254,6 @@ def city_sort_lo():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_lu")
 def city_sort_lu():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -312,8 +268,6 @@ def city_sort_lu():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_ly")
 def city_sort_ly():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -328,8 +282,6 @@ def city_sort_ly():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_ma")
 def city_sort_ma():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -344,8 +296,6 @@ def city_sort_ma():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_mi")
 def city_sort_mi():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -360,8 +310,6 @@ def city_sort_mi():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_mu")
 def city_sort_mu():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -376,8 +324,6 @@ def city_sort_mu():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_op")
 def city_sort_op():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -392,8 +338,6 @@ def city_sort_op():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_os")
 def city_sort_os():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -408,8 +352,6 @@ def city_sort_os():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_pa")
 def city_sort_pa():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -424,8 +366,6 @@ def city_sort_pa():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_pr")
 def city_sort_pr():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -440,8 +380,6 @@ def city_sort_pr():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_ro")
 def city_sort_ro():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -456,8 +394,6 @@ def city_sort_ro():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_st")
 def city_sort_st():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -472,8 +408,6 @@ def city_sort_st():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_vi")
 def city_sort_vi():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -488,8 +422,6 @@ def city_sort_vi():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_wr")
 def city_sort_wr():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -504,8 +436,6 @@ def city_sort_wr():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
-
 @register.simple_tag(name="city_sort_zr")
 def city_sort_zr():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -520,7 +450,6 @@ def city_sort_zr():
     result2 = result["URL_TA"]
     result3 = f"https://www.tripadvisor.com.tr{result2}"
     return result3
-
 @register.simple_tag(name="cuisine_am")
 def cuisine_am():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -532,7 +461,6 @@ def cuisine_am():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_as")
 def cuisine_as():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -544,7 +472,6 @@ def cuisine_as():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_bar")
 def cuisine_bar():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -556,7 +483,6 @@ def cuisine_bar():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_barb")
 def cuisine_barb():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -568,7 +494,6 @@ def cuisine_barb():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_be")
 def cuisine_be():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -580,7 +505,6 @@ def cuisine_be():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_brew")
 def cuisine_brew():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -592,7 +516,6 @@ def cuisine_brew():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_ca")
 def cuisine_ca():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -604,7 +527,6 @@ def cuisine_ca():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_cee")
 def cuisine_cee():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -616,8 +538,6 @@ def cuisine_cee():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_ch")
 def cuisine_ch():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -629,8 +549,6 @@ def cuisine_ch():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_con")
 def cuisine_con():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -642,8 +560,6 @@ def cuisine_con():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_de")
 def cuisine_de():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -655,7 +571,6 @@ def cuisine_de():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_di")
 def cuisine_di():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -667,7 +582,6 @@ def cuisine_di():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_ff")
 def cuisine_ff():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -679,8 +593,6 @@ def cuisine_ff():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_fr")
 def cuisine_fr():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -692,8 +604,6 @@ def cuisine_fr():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_fru")
 def cuisine_fru():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -705,8 +615,6 @@ def cuisine_fru():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_fus")
 def cuisine_fus():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -718,8 +626,6 @@ def cuisine_fus():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_ga")
 def cuisine_gas():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -731,8 +637,6 @@ def cuisine_gas():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_ger")
 def cuisine_ger():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -744,8 +648,6 @@ def cuisine_ger():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_gr")
 def cuisine_gr():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -757,8 +659,6 @@ def cuisine_gr():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_gri")
 def cuisine_gri():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -770,7 +670,6 @@ def cuisine_gri():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_hea")
 def cuisine_hea():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -782,7 +681,6 @@ def cuisine_hea():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_ind")
 def cuisine_ind():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -794,7 +692,6 @@ def cuisine_ind():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_int")
 def cuisine_int():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -806,7 +703,6 @@ def cuisine_int():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_ita")
 def cuisine_ita():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -818,8 +714,6 @@ def cuisine_ita():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_jap")
 def cuisine_jap():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -831,8 +725,6 @@ def cuisine_jap():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_med")
 def cuisine_med():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -844,8 +736,6 @@ def cuisine_med():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_mex")
 def cuisine_mex():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -857,8 +747,6 @@ def cuisine_mex():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_mid")
 def cuisine_mid():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -870,7 +758,6 @@ def cuisine_mid():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_pol")
 def cuisine_pol():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -882,7 +769,6 @@ def cuisine_pol():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_pub")
 def cuisine_pub():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -894,8 +780,6 @@ def cuisine_pub():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_sca")
 def cuisine_sca():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -907,7 +791,6 @@ def cuisine_sca():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_soam")
 def cuisine_soam():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -919,7 +802,6 @@ def cuisine_soam():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_steak")
 def cuisine_steak():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -931,8 +813,6 @@ def cuisine_steak():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_strt")
 def cuisine_strt():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -944,7 +824,6 @@ def cuisine_strt():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_th")
 def cuisine_th():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -956,8 +835,6 @@ def cuisine_th():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_tur")
 def cuisine_tur():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -969,7 +846,6 @@ def cuisine_tur():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
 @register.simple_tag(name="cuisine_wine")
 def cuisine_wine():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -981,8 +857,6 @@ def cuisine_wine():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_hal")
 def cuisine_hal():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -994,8 +868,6 @@ def cuisine_hal():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
 @register.simple_tag(name="cuisine_kos")
 def cuisine_kos():
     df = pd.read_csv("restaurant/TA_restaurants_curated.csv")
@@ -1007,5 +879,3 @@ def cuisine_kos():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
-
-
