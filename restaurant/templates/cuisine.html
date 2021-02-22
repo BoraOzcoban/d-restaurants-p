@@ -27,7 +27,7 @@
         }
     </style>
 </head>
-<body class = "bg-info text-light">
+<body class = "bg-info text-dark">
     <div class = "container fixed">
         <div class = "jumbotron">
                 <p class = "h1 text-dark">Randomrestaurants</p>
@@ -49,20 +49,11 @@
     <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal5">
         Barbecue
     </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal6">
-        Cafe
-    </button>
     <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal7">
         Contemporary
     </button>
     <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal8">
         Halal
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal11">
-        Deli
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal12">
-        Diner
     </button>
     <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal13">
         Fusion
@@ -159,22 +150,6 @@
             </div>
         </div>
     </div>
-    <div class = "modal" id="myModal6">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Cafe</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <strong> {% cuisine_ca %} </strong>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class = "modal" id="myModal7">
         <div class = "modal-dialog modal-lg">
             <div class = "modal-content">
@@ -216,38 +191,6 @@
                 </div>
                 <div class = "modal-body">
                     <strong> {% cuisine_fru %} </strong>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal11">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Deli</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <strong> {% cuisine_de %} </strong>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal12">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Diner</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <strong> {% cuisine_di %} </strong>
                 </div>
                 <div class = "modal-footer">
                     <button type="button" class = "close" data-dismiss="modal">Close</button>
