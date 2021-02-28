@@ -32,34 +32,140 @@
                 <p class = "h1 text-dark">Randomrestaurants</p>
         </div>
     </div>
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal17">
+        London
+    </button>
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal18">
+        Luxembourg
+    </button>
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal19">
+        Lyon
+    </button>
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal20">
+        Madrid
+    </button>
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal21">
+        Milan
+    </button>
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal22">
+        Munich
+    </button>
     <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal23">
         Oporto
     </button>
     <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal24">
         Oslo
     </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal25">
-        Paris
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal26">
-        Prague
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal27">
-        Rome
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal28">
-        Stockholm
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal29">
-        Vienna
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal30">
-        Warsaw
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal31">
-        Zurich
-    </button>
+
     {% load tag %}
+    <div class = "modal" id="myModal17">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">London</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div17">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_lo %}"   height="100%"></iframe>
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal18">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Luxembourg</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div18">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_lu %}"   height="100%"></iframe>
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal19">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Lyon</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div19">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_ly %}"   height="100%"></iframe>
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal20">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Madrid</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div20">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_ma %}"   height="100%"></iframe>
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal21">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Milan</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div21">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_mi %}"   height="100%"></iframe>
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal22">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Munich</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div22">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_mu %}"   height="100%"></iframe>
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class = "modal" id="myModal23">
         <div class = "modal-dialog modal-lg">
             <div class = "modal-content">
@@ -88,132 +194,6 @@
                 <div class = "modal-body">
                     <div class="embed-responsive embed-responsive-16by9" id="id_div24">
                         <iframe class="embed-responsive-item" src= "{% city_sort_os %}"   height="100%"></iframe>
-                    </div>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal25">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Paris</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div25">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_pa %}"   height="100%"></iframe>
-                    </div>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal26">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Prague</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div26">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_pr %}"   height="100%"></iframe>
-                    </div>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal27">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Rome</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div27">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_ro %}"   height="100%"></iframe>
-                    </div>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal28">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Stockholm</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div28">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_st %}"   height="100%"></iframe>
-                    </div>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal29">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Vienna</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div29">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_vi %}"   height="100%"></iframe>
-                    </div>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal30">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Warsaw</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div30">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_wr %}"   height="100%"></iframe>
-                    </div>
-                </div>
-                <div class = "modal-footer">
-                    <button type="button" class = "close" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class = "modal" id="myModal31">
-        <div class = "modal-dialog modal-lg">
-            <div class = "modal-content">
-                <div class = "modal-header">
-                    <h4 class = "modal-title">Zurich</h4>
-                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div31">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_zr %}"   height="100%"></iframe>
                     </div>
                 </div>
                 <div class = "modal-footer">
