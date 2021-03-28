@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3a4f3c5-7f0a-4106-abc2-0aeebe411181" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/asgi.py" beforeDir="false" />
