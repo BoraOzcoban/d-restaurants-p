@@ -3,7 +3,6 @@
 {% load tag %}
 <html lang="en">
 <head>
-    <link rel="icon" href="http://www.yusufsezer.com.tr/favicon.ico" type="image/logo.jpg" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HH7HLD204F"></script>
     <script>
@@ -37,41 +36,87 @@
         .jumbotron {
             background-image: url(https://images.unsplash.com/photo-1546549032-9571cd6b27df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)
             }
+        .navbar {
+          overflow: hidden;
+          background-image: url('https://images.unsplash.com/photo-1615937722923-67f6deaf2cc9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+          background-color: #2BBBAD;
+          padding: 1rem 8rem;
+          position: fixed; /* Set the navbar to fixed position */
+          top: 0; /* Position the navbar at the top of the page */
+          width: 100%; /* Full width */
+        }
+
+        .navbar .navbar-brand{
+            font-size:  1.4rem;
+            font-weight: 700;
+        }
+        /* Links inside the navbar */
+        .navbar a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        /* Change background on mouse-over */
+        .navbar a:hover {
+          background: #ddd;
+          color: black;
+        }
+        nav {
+            z-index: 9999;
+        }
+        /* Main content */
+        .main {
+          margin-top: 30px; /* Add a top margin to avoid content overlay */
+        }
     </style>
 </head>
 <body class = "bg-info text-center text-light">
-    <div class = "container fixed">
-        <div class = "btn-group w-100" >
-            <button onclick = "location.href='about'" class = "btn btn-dark">About</button>
-            <button onclick = "location.href='contact'" class = "btn btn-dark">Contact</button>
-        </div>
-        <div class = "jumbotron">
-                <p class = "h1 text-dark">Randomrestaurants</p>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img src="https://instagram.fadb3-2.fna.fbcdn.net/v/t51.2885-19/168424422_305352324269190_1842453062386144971_n.jpg?_nc_ht=instagram.fadb3-2.fna.fbcdn.net&_nc_ohc=VjGLL4YFhmwAX9HKd5I&edm=ABfd0MgAAAAA&ccb=7-4&oh=36a912886ce0cdcf78ef51d29ce4596c&oe=609591E0&_nc_sid=7bff83" width="120" height="120" class="d-inline-block align-top" alt="">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link-info" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-info" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
     <br>
     <br>
     <br>
-    <p class = "text-justify mt-4">Don't want to lose time looking for a restaurant? Want to try something new? Just click one of the random restaurant selector tools and enjoy </p>
-    <div class = "clearfix mt-4">
-        <div class = "btn-group-vertical w-100" >
-            <button onclick = "location.href='random'" class = "btn btn-dark">Random Restaurant Selector</button>
-            <button onclick = "location.href='sort_city'" class = "btn btn-dark">Random Restaurant Selector by City (Cities listed alphabetically from Amsterdam to Copenhagen)</button>
-            <button onclick = "location.href='sort_city2'" class = "btn btn-dark">Random Restaurant Selector by City (Cities listed alphabetically from Dublin to Ljubljana)</button>
-            <button onclick = "location.href='sort_city3'" class = "btn btn-dark">Random Restaurant Selector by City (Cities listed alphabetically from London to Oslo)</button>
-            <button onclick = "location.href='sort_city4'" class = "btn btn-dark">Random Restaurant Selector by City (Cities listed alphabetically from Paris to Zurich)</button>
-            <button onclick="location.href='cuisine2'" class = "btn btn-dark">Number of Restaurants that are serving the cuisine of choice by City</button>
-        </div>
-    </div>
-    <br>
-    <br>
-    <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ez&f=ifr&linkID=4f5996a81ba436bddee6a371c9a023ad&t=bjorgheim-20&tracking_id=bjorgheim-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
     <br>
     <br>
     <p>I, personally enjoy looking for restaurants online, but sometimes I do not have plenty of time available so using this website in the city of my choice would be really helpful</p>
     <p class="font-weight-bold">If you are a tourist in a city you do not know, it may be better if you use this website instead of searching for a place to eat and thus decreasing the amount of time you will enjoy the city</p>
     <p>Not sure where to go on holiday? You can use the Random Restaurant Selector tool and go to the restaurant it shows. If you are not satisfied with the restaurant and city, just refresh the page :) </p>
     <p class="font-weight-bold">There are probably thousands of restaurants, cafes, and bars near you. So isn't it just silly to go to the same places every time instead of exploring new places that may be as lovely as your favorite places sometimes?</p>
+    <br>
+    <div class = "clearfix mt-4">
+        <div class = "btn-group-vertical w-100" >
+            <button onclick = "location.href='random'" class = "btn btn-dark">Random Restaurant Selector</button>
+            <button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Random Restaurant Selector by City
+            </button>
+            <div class="dropdown-menu bg-dark" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item text-light" href="#sort_city">Alphebetically Amsterdam-Copenhagen</a>
+              <a class="dropdown-item text-light" href="#sort_city2">Alphebetically Dublin-Ljubljana</a>
+              <a class="dropdown-item text-light" href="#sort_city3">Alphebetically London-Oslo</a>
+              <a class="dropdown-item text-light" href="#sort_city4">Alphebetically Paris-Zurich</a>
+            </div>
+            <button onclick="location.href='cuisine2'" class = "btn btn-dark">Number of Restaurants that are serving the cuisine of choice by City</button>
+        </div>
+    </div>
     <br>
     <br>
      <div class="container fixed">
@@ -99,10 +144,13 @@
                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img class="d-block w-100" src="https://images.unsplash.com/photo-1532636875304-0c89119d9b4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Second slide">
+                          <img class="d-block w-100" src="https://images.unsplash.com/photo-1590828413506-d632c9e582c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1325&q=80" alt="Second slide">
                         </div>
                         <div class="carousel-item">
                           <img class="d-block w-100" src="https://images.unsplash.com/photo-1550946715-c2d98d2f5c74?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="https://images.unsplash.com/photo-1604945516204-526aa4fd6425?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80" alt="Third slide">
                         </div>
                       </div>
                       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
