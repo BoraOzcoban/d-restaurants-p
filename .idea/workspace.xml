@@ -34,6 +34,8 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city5.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city6.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
