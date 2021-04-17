@@ -11,6 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3a4f3c5-7f0a-4106-abc2-0aeebe411181" name="Default Changelist" comment="m">
+      <change afterPath="$PROJECT_DIR$/restaurant/templates/sort_city10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/templates/sort_city5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/templates/sort_city6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/templates/sort_city7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/templates/sort_city8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant/templates/sort_city9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/asgi.py" beforeDir="false" />
@@ -34,6 +41,13 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city4.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +63,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mysite" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1lYVL3FCa5F1LGGx1gottzn0wKq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -140,10 +156,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="m" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="725" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614003075629">
+    <state x="725" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618664492700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="725" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614003075629" />
+    <state x="725" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618664492700" />
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611579270693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,57 +168,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614188154921" />
-    <state x="824" y="417" key="Github.ShareDialog" timestamp="1609945684464">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="824" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609945684464" />
-    <state x="664" y="224" key="Github.UntrackedFilesDialog" timestamp="1609945698438">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="664" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609945698438" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1609874422877">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609874422877" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1609874422877">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609874422877" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1609874422877">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609874422877" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1609874422877">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609874422877" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1609869549764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609869549764" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1609869549764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609869549764" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1609869549764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609869549764" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1609869549764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609869549764" />
-    <state x="758" y="240" key="RollbackChangesDialog" timestamp="1609869490599">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="758" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609869490599" />
     <state x="789" y="174" key="SettingsEditor" timestamp="1612194958124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="789" y="174" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612194958124" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609869474606">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609869474606" />
   </component>
 </project>

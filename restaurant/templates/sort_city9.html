@@ -5,12 +5,12 @@
     <script data-ad-client="ca-pub-4861253431025164" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/09aa26f5ae.js" crossorigin="anonymous"></script>
-    <title>Belgium, Luxmebourg, Netherlands</title>
+    <title>Czechia, Slovakia, Hungary</title>
     <style>
         html, body {
             height: 100%;
         }
-                body {
+        body {
             padding: 70px;
             }
         div {
@@ -30,35 +30,29 @@
 <body class = "bg-info text-dark">
     <div class = "container fixed">
         <div class = "jumbotron">
-                <p class = "h1 text-light">Randomrestaurants</p>
+                <p class = "h1 text-dark">Randomrestaurants</p>
         </div>
     </div>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
-        Amsterdam
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal5">
+        Bratislava
     </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal6">
-        Bruxelles
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal7">
+        Budapest
     </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal18">
-        Luxembourg
+    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal26">
+        Prague
     </button>
 
-
-
-
-    {% load tag %}
-    <div class = "modal" id="myModal">
+    <div class = "modal" id="myModal5">
         <div class = "modal-dialog modal-lg">
             <div class = "modal-content">
                 <div class = "modal-header">
-                    <h4 class = "modal-title">Amsterdam</h4>
+                    <h4 class = "modal-title">Bratislava</h4>
                     <button type="button" class = "close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class = "modal-body">
-                </div>
-                <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_a %}"   height="100%"></iframe>
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div5">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_br %}"   height="100%"></iframe>
                     </div>
                 </div>
                 <div class = "modal-footer">
@@ -67,18 +61,16 @@
             </div>
         </div>
     </div>
-
-
-    <div class = "modal" id="myModal6">
+    <div class = "modal" id="myModal7">
         <div class = "modal-dialog modal-lg">
             <div class = "modal-content">
                 <div class = "modal-header">
-                    <h4 class = "modal-title">Brussels</h4>
+                    <h4 class = "modal-title">Budapest</h4>
                     <button type="button" class = "close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div6">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_bru %}"   height="100%"></iframe>
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div7">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_bu %}"   height="100%"></iframe>
                     </div>
                 </div>
                 <div class = "modal-footer">
@@ -87,16 +79,16 @@
             </div>
         </div>
     </div>
-    <div class = "modal" id="myModal18">
+    <div class = "modal" id="myModal26">
         <div class = "modal-dialog modal-lg">
             <div class = "modal-content">
                 <div class = "modal-header">
-                    <h4 class = "modal-title">Luxembourg</h4>
+                    <h4 class = "modal-title">Prague</h4>
                     <button type="button" class = "close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class = "modal-body">
-                    <div class="embed-responsive embed-responsive-16by9" id="id_div18">
-                        <iframe class="embed-responsive-item" src= "{% city_sort_lu %}"   height="100%"></iframe>
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div26">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_pr %}"   height="100%"></iframe>
                     </div>
                 </div>
                 <div class = "modal-footer">
@@ -105,8 +97,6 @@
             </div>
         </div>
     </div>
-
-
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
