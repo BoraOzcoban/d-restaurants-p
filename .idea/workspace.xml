@@ -35,6 +35,18 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/cuisine2.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/cuisine2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/random.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/random.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city10.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city4.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city5.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city6.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city7.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city8.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city9.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +88,7 @@
       <recent name="C:\Users\pc\PycharmProjects\d-restaurants-p\mysite\restaurant" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.urls">
+  <component name="RunManager" selected="Python.tag (1)">
     <configuration name="tag (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="d-restaurants-p" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.urls" />
         <item itemvalue="Python.tag (1)" />
+        <item itemvalue="Python.urls" />
         <item itemvalue="Python.tag" />
       </list>
     </recent_temporary>
@@ -199,38 +211,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614188154921" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1618741723606">
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1618742563116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618741723606" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1618741723606">
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618742563116" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1618742563116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618741723606" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1618741723606">
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618742563116" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1618742563116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618741723606" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1618741723606">
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618742563116" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1618742563116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618741723606" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618741723606">
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618742563116" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618742563116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618741723606" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1618741723606">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618742563116" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1618742563116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618741723606" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1618741723606">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618742563116" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1618742563116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618741723606" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1618741723606">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618742563116" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1618742563116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618741723606" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618742563116" />
     <state x="789" y="174" key="SettingsEditor" timestamp="1612194958124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
