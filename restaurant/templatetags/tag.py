@@ -15,7 +15,7 @@ def random():
     x = randint(0, 125433)
     result = df.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_a")
 def city_sort_a():
@@ -24,7 +24,7 @@ def city_sort_a():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_at")
 def city_sort_at():
@@ -33,7 +33,7 @@ def city_sort_at():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_b")
 def city_sort_b():
@@ -42,7 +42,7 @@ def city_sort_b():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_be")
 def city_sort_be():
@@ -51,7 +51,7 @@ def city_sort_be():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_br")
 def city_sort_br():
@@ -60,7 +60,7 @@ def city_sort_br():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_bru")
 def city_sort_bru():
@@ -69,7 +69,7 @@ def city_sort_bru():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_bu")
 def city_sort_bu():
@@ -78,7 +78,7 @@ def city_sort_bu():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_cp")
 def city_sort_cp():
@@ -87,7 +87,7 @@ def city_sort_cp():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_du")
 def city_sort_du():
@@ -96,7 +96,7 @@ def city_sort_du():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_ed")
 def city_sort_ed():
@@ -105,7 +105,7 @@ def city_sort_ed():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_ge")
 def city_sort_ge():
@@ -114,7 +114,7 @@ def city_sort_ge():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_ha")
 def city_sort_ha():
@@ -123,7 +123,7 @@ def city_sort_ha():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_he")
 def city_sort_he():
@@ -132,7 +132,7 @@ def city_sort_he():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_kr")
 def city_sort_kr():
@@ -141,7 +141,7 @@ def city_sort_kr():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_li")
 def city_sort_li():
@@ -150,7 +150,7 @@ def city_sort_li():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_lj")
 def city_sort_lj():
@@ -159,7 +159,7 @@ def city_sort_lj():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_lo")
 def city_sort_lo():
@@ -168,7 +168,7 @@ def city_sort_lo():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_lu")
 def city_sort_lu():
@@ -177,7 +177,7 @@ def city_sort_lu():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_ly")
 def city_sort_ly():
@@ -186,7 +186,7 @@ def city_sort_ly():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_ma")
 def city_sort_ma():
@@ -195,7 +195,7 @@ def city_sort_ma():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_mi")
 def city_sort_mi():
@@ -204,7 +204,7 @@ def city_sort_mi():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_mu")
 def city_sort_mu():
@@ -213,7 +213,7 @@ def city_sort_mu():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_op")
 def city_sort_op():
@@ -222,7 +222,7 @@ def city_sort_op():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_os")
 def city_sort_os():
@@ -231,7 +231,7 @@ def city_sort_os():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_pa")
 def city_sort_pa():
@@ -240,7 +240,7 @@ def city_sort_pa():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_pr")
 def city_sort_pr():
@@ -249,7 +249,7 @@ def city_sort_pr():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_ro")
 def city_sort_ro():
@@ -258,7 +258,7 @@ def city_sort_ro():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_st")
 def city_sort_st():
@@ -267,7 +267,7 @@ def city_sort_st():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_vi")
 def city_sort_vi():
@@ -276,7 +276,7 @@ def city_sort_vi():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_wr")
 def city_sort_wr():
@@ -285,7 +285,7 @@ def city_sort_wr():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="city_sort_zr")
 def city_sort_zr():
@@ -294,7 +294,7 @@ def city_sort_zr():
     x = randint(1, y)
     result = result.iloc[x]
     result2 = result["URL_TA"]
-    result3 = f"https://www.tripadvisor.com.tr{result2}"
+    result3 = f"https://www.tripadvisor.com{result2}"
     return result3
 @register.simple_tag(name="cuisine_am")
 def cuisine_am():

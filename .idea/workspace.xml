@@ -35,18 +35,6 @@
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/restaurant/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/cuisine2.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/cuisine2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/random.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/random.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city10.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city4.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city5.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city6.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city7.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city8.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/templates/sort_city9.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/templates/sort_city9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
