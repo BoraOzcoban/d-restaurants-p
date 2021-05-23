@@ -15,6 +15,7 @@ urlpatterns = [
     path('sort_city8', views.SortCity8.as_view(), name="sort_city8"),
     path('sort_city9', views.SortCity9.as_view(), name="sort_city9"),
     path('sort_city10', views.SortCity10.as_view(), name="sort_city10"),
+    path('cuisine1', views.Cuisine1.as_view(), name="cuisine1"),
     path('cuisine2', views.Cuisine2.as_view(), name="cuisine2"),
     path('about', views.About.as_view(), name="about"),
     path('contact', views.Contact.as_view(), name="contact")

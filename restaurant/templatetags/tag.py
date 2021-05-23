@@ -356,3 +356,28 @@ def cuisine_tur():
     res = df2.groupby("City").count().sort_values("Name", ascending=False)
     res = res["Name"].to_string()
     return res
+@register.simple_tag(name="cuisine_vegan")
+def cuisine_vegan():
+    df2 = df[df["Cuisine Style"].str.contains("Vegan")]
+    res = df2.groupby("City").count().sort_values("Name", ascending=False)
+    res = res["Name"].to_string()
+    return res
+@register.simple_tag(name="cuisine_halal")
+def cuisine_halal():
+    df2 = df[df["Cuisine Style"].str.contains("Halal")]
+    res = df2.groupby("City").count().sort_values("Name", ascending=False)
+    res = res["Name"].to_string()
+    return res
+@register.simple_tag(name="cuisine_kosher")
+def cuisine_kosher():
+    df2 = df[df["Cuisine Style"].str.contains("Kosher")]
+    res = df2.groupby("City").count().sort_values("Name", ascending=False)
+    res = res["Name"].to_string()
+    return res
+@register.simple_tag(name="cuisine_bar")
+def cuisine_bar():
+    df2 = df[df["Cuisine Style"].str.contains("Bar")]
+    res = df2.groupby("City").count().sort_values("Name", ascending=False)
+    res = res["Name"].to_string()
+    return res
+
