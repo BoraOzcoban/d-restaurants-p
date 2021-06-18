@@ -68,6 +68,22 @@
         .main {
           margin-top: 30px; /* Add a top margin to avoid content overlay */
         }
+        .jumbotron{
+            background-image: url('https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            background-size: cover;
+        }
+        .jumbotron2{
+            background-image: url('https://images.unsplash.com/photo-1560611588-163f295eb145?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+        }
+        .jumbotron3{
+            background-image: url('https://images.unsplash.com/photo-1583623025817-d180a2221d0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80');
+            background-size: cover;
+        }
+        .jumbotron4{
+            background-image: url('https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+        }
     </style>
 </head>
 <body class = "bg-dark text-center text-light">
@@ -101,13 +117,39 @@
     <br>
     <br>
     <br>
-    <div class = "clearfix mt-4">
-        <div class = "btn-group-vertical w-100" >
-            <button onclick = "location.href='random'" class = "btn btn-info">Random Restaurant Selector</button>
-            <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <div class="container jumbotron ">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button onclick = "location.href='random'" class = "btn btn-dark">Random Restaurant Selector</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container jumbotron2 ">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Random Restaurant Selector by City
             </button>
-            <div class="dropdown-menu bg-info" aria-labelledby="btnGroupDrop1">
+            <div class="dropdown-menu bg-dark" aria-labelledby="btnGroupDrop1">
                 <a class="dropdown-item text-light" href="sort_city4">Austria, Switzerland</a>
                 <a class="dropdown-item text-light" href="sort_city">Belgium, Luxmebourg, Netherlands</a>
                 <a class="dropdown-item text-light" href="sort_city2">British Isles</a>
@@ -119,10 +161,58 @@
                 <a class="dropdown-item text-light" href="sort_city10">Poland, Slovenia</a>
                 <a class="dropdown-item text-light" href="sort_city7">Spain, Portugal</a>
             </div>
-            <button onclick="location.href='cuisine1'" class = "btn btn-info">Number of Restaurants that are serving the cuisine of choice by Type</button>
-            <button onclick="location.href='cuisine2'" class = "btn btn-info">Number of Restaurants that are serving the cuisine of choice by City</button>
-        </div>
+        </h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container jumbotron3 ">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button onclick="location.href='cuisine1'" class = "btn btn-dark">Number of Restaurants That are on the Category of Choice by City</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container jumbotron4 ">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button onclick="location.href='cuisine2'" class = "btn btn-dark">Number of Restaurants That are Serving the Cuisine of Choice by City</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
     <br>
     <br>
     <br>
