@@ -33,6 +33,22 @@
             margin:5px!important;
             border-radius: 25px;
         }
+        .jumbotron{
+            background-image: url('https://images.unsplash.com/photo-1576927164269-54c7a9886760?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80');
+            background-size: cover;
+        }
+        .jumbotron2{
+            background-image: url('https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            background-size: cover;
+        }
+        .jumbotron3{
+            background-image: url('https://images.unsplash.com/photo-1543277501-38147cb8300e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            background-size: cover;
+        }
+        .jumbotron4{
+            background-image: url('https://images.unsplash.com/photo-1513735429658-5b2072a1cee6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80');
+            background-size: cover;
+        }
     </style>
 </head>
 <body class = "text-dark">
@@ -42,18 +58,50 @@
     <br>
     <br>
     <br>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal3">
-        Barcelona
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal15">
-        Lisbon
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal20">
-        Madrid
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal23">
-        Oporto
-    </button>
+    <div class="container jumbotron ">
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal3">Barcelona</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="container jumbotron2 ">
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal20">Madrid</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="container jumbotron3 ">
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal23">Oporto</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
+     <div class="container jumbotron4 ">
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal15">Lisbon</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
 
     {% load tag %}
     <div class = "modal" id="myModal3">

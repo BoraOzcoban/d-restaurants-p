@@ -33,6 +33,17 @@
             margin:5px!important;
             border-radius: 25px;
         }
+        .jumbotron{
+            background-image: url('https://images.unsplash.com/photo-1576430758235-2feb8d6b737a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            background-size: cover;
+        }
+        .jumbotron2{
+            background-image: url('https://images.unsplash.com/photo-1560523371-b28d9e070c21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80');
+            background-size: cover;
+        }
+        .jumbotron3{
+            background-image: url('https://images.unsplash.com/photo-1588336899284-950764f07147?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
     </style>
 </head>
 <body class = "text-dark">
@@ -42,18 +53,39 @@
     <br>
     <br>
     <br>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
-        Amsterdam
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal6">
-        Bruxelles
-    </button>
-    <button type = "button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal18">
-        Luxembourg
-    </button>
-
-
-
+    <div class="container jumbotron ">
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal">Amsterdam</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="container jumbotron2 ">
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal6">Bruxelles</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="container jumbotron3 ">
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal18">Luxembourg</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
 
     {% load tag %}
     <div class = "modal" id="myModal">
