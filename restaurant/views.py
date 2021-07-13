@@ -24,6 +24,10 @@ class SortCity9(TemplateView):
     template_name = 'sort_city9.html'
 class SortCity10(TemplateView):
     template_name = 'sort_city10.html'
+class SortCitySum1(TemplateView):
+    template_name = 'sort_city_sum1.html'
+class SortCitySum2(TemplateView):
+    template_name = 'sort_city_sum2.html'
 class Cuisine1(TemplateView):
     template_name = 'cuisine1.html'
 class Cuisine2(TemplateView):
