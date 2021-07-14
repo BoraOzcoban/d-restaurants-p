@@ -38,17 +38,27 @@
             background-size: cover;
         }
         .jumbotron2{
-            background-image: url('https://images.unsplash.com/photo-1600194795031-e8c60926db4f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80');
+            background-image: url('https://images.unsplash.com/photo-1566084091852-0385135abadc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80');
             background-size: cover;
         }
         .jumbotron3{
-            background-image: url('https://images.unsplash.com/photo-1606864034826-111e5945de8d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
-            background-size: cover;
+            background-image: url('https://images.unsplash.com/photo-1560093109-3784c0b9da1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
+            background-size: cover;q=80
+        }
         .jumbotron4{
-            background-image: url('https://images.unsplash.com/photo-1597744733354-0499ea376fe9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80');
+            background-image: url('https://images.unsplash.com/photo-1600541205316-7d4284a4a1bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80');
             background-size: cover;
+        }
         .jumbotron5{
             background-image: url('https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1022&q=80');
+            background-size: cover;
+        }
+        .jumbotron6{
+            background-image: url('https://images.unsplash.com/photo-1590591479045-508f8fe779a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            background-size: cover;
+        }
+        .jumbotron7{
+            background-image: url('https://images.unsplash.com/photo-1590141434646-6be530ff9575?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80');
             background-size: cover;
     </style>
 </head>
@@ -89,6 +99,17 @@
         <br>
         <br>
     </div>
+     <div class="container jumbotron6 ">
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal201">Antalya</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
     <div class="container jumbotron4 ">
         <br>
         <br>
@@ -106,6 +127,17 @@
         <br>
         <h3 class="-sub-title">
             <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal105">Santorini</button>
+        </h3>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="container jumbotron7 ">
+        <br>
+        <br>
+        <br>
+        <h3 class="-sub-title">
+            <button type = "button" class="btn btn-dark" data-toggle="modal" data-target="#myModal202">Budva</button>
         </h3>
         <br>
         <br>
@@ -198,6 +230,42 @@
                 <div class = "modal-body">
                     <div class="embed-responsive embed-responsive-16by9" id="id_div105">
                         <iframe class="embed-responsive-item" src= "{% city_sort_san %}"   height="100%"></iframe>
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal201">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Antalya</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div201">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_ant %}"   height="100%"></iframe>
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type="button" class = "close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "modal" id="myModal202">
+        <div class = "modal-dialog modal-lg">
+            <div class = "modal-content">
+                <div class = "modal-header">
+                    <h4 class = "modal-title">Budva</h4>
+                    <button type="button" class = "close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class = "modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="id_div202">
+                        <iframe class="embed-responsive-item" src= "{% city_sort_bud %}"   height="100%"></iframe>
                     </div>
                 </div>
                 <div class = "modal-footer">

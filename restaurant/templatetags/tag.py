@@ -451,3 +451,83 @@ def city_sort_myk():
     result = result.iloc[x]
     result2 = result["Url"]
     return result2
+@register.simple_tag(name="city_sort_bud")
+def city_sort_bud():
+    result = df2[df2["City"].str.contains("Budva")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_mal")
+def city_sort_mal():
+    result = df2[df2["City"].str.contains("Mallorca")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_sar")
+def city_sort_sar():
+    result = df2[df2["City"].str.contains("Sardinia")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_ant")
+def city_sort_ant():
+    result = df2[df2["City"].str.contains("Antalya")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_alg")
+def city_sort_alg():
+    result = df2[df2["City"].str.contains("Algarve")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_mia")
+def city_sort_mia():
+    result = df2[df2["City"].str.contains("Miami")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_hav")
+def city_sort_hav():
+    result = df2[df2["City"].str.contains("Havana")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_hon")
+def city_sort_hon():
+    result = df2[df2["City"].str.contains("Honolulu")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_aru")
+def city_sort_aru():
+    result = df2[df2["City"].str.contains("Aruba")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2
+@register.simple_tag(name="city_sort_can")
+def city_sort_can():
+    result = df2[df2["City"].str.contains("Cancun")]
+    y = len(result)
+    x = randint(1, y)
+    result = result.iloc[x]
+    result2 = result["Url"]
+    return result2

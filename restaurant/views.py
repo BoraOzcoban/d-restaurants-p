@@ -28,6 +28,8 @@ class SortCitySum1(TemplateView):
     template_name = 'sort_city_sum1.html'
 class SortCitySum2(TemplateView):
     template_name = 'sort_city_sum2.html'
+class SortCitySum3(TemplateView):
+    template_name = 'sort_city_sum3.html'
 class Cuisine1(TemplateView):
     template_name = 'cuisine1.html'
 class Cuisine2(TemplateView):
